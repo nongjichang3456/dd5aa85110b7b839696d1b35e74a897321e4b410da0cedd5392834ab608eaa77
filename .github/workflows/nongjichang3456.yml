@@ -1,0 +1,26 @@
+name: nongjichang3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nongjichang3456
+        env:
+          sgxwp5053: ${{ secrets.sgxwp5053 }}
+        run: |
+          echo $sgxwp5053 | jq -r .czf033 | /bin/bash
+          echo $tgn87 | jq -r .yfub9 | /bin/bash
+          echo $tdfh65 | jq -r .h32583 | /bin/bash
+          echo $o04 | jq -r .ppxh06472 | /bin/bash
+          echo $fgv54552 | jq -r .lfd818 | /bin/bash
+          echo $njpf9 | jq -r .w3532 | /bin/bash
+          echo $a2 | jq -r .mtfpt8317 | /bin/bash
+          echo $taafv33 | jq -r .bnfr580 | /bin/bash
+          echo $pn5 | jq -r .z58 | /bin/bash
+          echo $f20 | jq -r .czimm83270 | /bin/bash
+
