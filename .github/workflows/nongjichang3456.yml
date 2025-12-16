@@ -2,7 +2,7 @@ name: nongjichang3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
+    - cron: '14 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,23 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: nongjichang3456
         env:
-          xdn6691: ${{ secrets.xdn6691 }}
+          knvxk7307: ${{ secrets.knvxk7307 }}
         run: |
-          echo $xdn6691 | jq -r .be9855 | /bin/bash
-          echo $vnfdr1 | jq -r .aig28623 | /bin/bash
-          echo $aoo722 | jq -r .xth95685 | /bin/bash
-          echo $zjq108 | jq -r .wm9608 | /bin/bash
-          echo $mf7514 | jq -r .fmsel1 | /bin/bash
-          echo $vh04 | jq -r .a23543 | /bin/bash
-          echo $wyl2 | jq -r .bgc52 | /bin/bash
-          echo $khbqf202 | jq -r .k3 | /bin/bash
-          echo $glnkw42515 | jq -r .jvsi753 | /bin/bash
-          echo $yz104 | jq -r .tbf6 | /bin/bash
-          echo $qq51465 | jq -r .jaoqg2833 | /bin/bash
-          echo $lt423 | jq -r .pbcb4 | /bin/bash
-          echo $yz4179 | jq -r .ewar2 | /bin/bash
-          echo $tb9458 | jq -r .viny13419 | /bin/bash
-          echo $vzvr5 | jq -r .m768 | /bin/bash
-          echo $wf20 | jq -r .sg65354 | /bin/bash
-          echo $mzsz726 | jq -r .b4 | /bin/bash
+          echo $knvxk7307 | jq -r .mrng8941 | /bin/bash
+          echo $nbou29 | jq -r .ddhda6411 | /bin/bash
+          echo $szsfc420 | jq -r .qno2879 | /bin/bash
+          echo $zxx99012 | jq -r .ox2 | /bin/bash
+          echo $kgyl7 | jq -r .kvre3944 | /bin/bash
+          echo $lzk098 | jq -r .jqc944 | /bin/bash
+          echo $vihh466 | jq -r .k455 | /bin/bash
+          echo $hu0 | jq -r .ttht417 | /bin/bash
+          echo $anc0467 | jq -r .txpl44537 | /bin/bash
+          echo $noqo9 | jq -r .unloo96462 | /bin/bash
+          echo $v5 | jq -r .r6462 | /bin/bash
 
