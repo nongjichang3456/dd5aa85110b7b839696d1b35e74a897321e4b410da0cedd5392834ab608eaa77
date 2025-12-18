@@ -1,25 +1,20 @@
 name: nongjichang3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 5/6 * * *'
+    - cron: '44 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nongjichang3456
         env:
-          osglo030: ${{ secrets.osglo030 }}
+          isec2: ${{ secrets.isec2 }}
         run: |
-          echo $osglo030 | jq -r .ece62356 | /bin/bash
-          echo $fs902 | jq -r .umbft57 | /bin/bash
-          echo $dz4 | jq -r .kid76 | /bin/bash
-          echo $ccgw1 | jq -r .vpifo8859 | /bin/bash
-          echo $id4 | jq -r .cbi01864 | /bin/bash
-          echo $vohrp73 | jq -r .s80 | /bin/bash
-          echo $dzji9968 | jq -r .n275 | /bin/bash
-          echo $qv0 | jq -r .vs21541 | /bin/bash
-          echo $d718 | jq -r .yma03423 | /bin/bash
+          echo $isec2 | jq -r .kjjaz382 | /bin/bash
+          echo $zxdp0 | jq -r .ez89803 | /bin/bash
 
